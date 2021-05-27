@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    padding: 0;
+}
+.side-menu {
+    max-width: 320px;
+    height: 1024px;
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
+    16px 0 52px rgba(14, 24, 80, 0.2);
+}
+.side-menu__menu-top {
+    padding-top: 19px;
+    margin-bottom: 14px;
+}
+.menu-top {
+    display: flex;
+    align-items: center;
+}
+.menu-top__exit-btn {
+    background-image: url("../img/burger-cancel.svg");
+    margin-left: 24px;
+}
+.menu-top__header-logo {
+    margin-left: 16px;
+}
+.menu-top__search-btn {
+    background-image: url("../img/search.svg");
+    margin-left: 78px;
+}
+.menu-list {
+    padding-top: 1px;
+}
+.menu-list__item {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+.menu-list__item a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+.menu-list__item_active a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 118px;
+    width: 4px;
+    height: 32px;
+    background: #41F6D7;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.menu-list__item_active a {
+    color: #7E7E82;
+}
+.side-menu__menu-bottom {
+    margin-top: 268px;
+    margin-left: 24px;
+}
+.menu-bottom__btn-panel {
+    display: flex;
+    margin-bottom: 16px;
+}
+.menu-bottom__call {
+    background-image: url("../img/call.svg");
+
+}
+.menu-bottom__message {
+    background-image: url("../img/chat.svg");
+    margin-left: 16px;
+}
+.menu-bottom__profile {
+    background-image: url("../img/profile.svg");
+    margin-left: 16px;
+}
+.menu-bottom__email {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-bottom: 16px;
+}
+.menu-bottom__phone-number {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    margin-bottom: 40px;
+}
+.menu-bottom__change-lang button {
+    border: none;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+.menu-bottom__ru_active {
+    color: #7E7E82;
+}
